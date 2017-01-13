@@ -1,0 +1,68 @@
+.row {
+    min-height: 50px;
+    box-sizing: border-box;
+}
+.col {
+    min-height: 50px;
+    float: left;
+    box-sizing: border-box;
+    padding: 5px;
+}
+.col-one-fifth {
+    width: 20%;
+}
+.col-three-fifth {
+    width: 60%;
+}
+.col-four-fifth {
+    width: 80%;
+}
+.col-one-third {
+    width: 33.333333%;
+}
+.col-two-third {
+    width: 66.666666%;
+}
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.logo {
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+.social {
+    width: 25%;
+}
+header {
+    background-color: pink;
+    border-bottom: 2px solid black;
+    max-height: 75px;
+}
+.mainmenu {
+    border-bottom: 2px dotted black;
+    padding: 20px 0px 0px;
+}
+.mainmenu a {
+    text-decoration: none;
+}
+.byline {
+    border-top: 2px dotted black;
+}
+.othernews {
+    border-top: 2px dotted black;
+    border-bottom: 2px dotted black;
+    padding: 0px 40px;
+}
+.comments {
+    width: 55%;
+    padding: 0px 0px 40px 40px;
+}
+footer {
+    background-color: pink;
+    padding: 40px;
+}
+body * {
+    font-family: 'Roboto', sans-serif;
+}
